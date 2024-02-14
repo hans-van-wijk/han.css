@@ -2,11 +2,14 @@
   "name": "han.css",
   "version": "1.0.0",
   "scripts": {
-    "css": "npx postcss src/css/*.css --dir dist/css"
+    "css": "npx postcss src/css/*.css --dir dist/css",
+    "clean": "rm -r -f dist && mkdir dist",
+    "start": "npm run clean && cp src/index.html dist/index.html && concurrently 'npx serve dist' 'npm run css -- --watch'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0"
   }
