@@ -1,9 +1,9 @@
 # HAN.CSS root
 
-This project contains boilerplate CSS I use in my own projects. It is intended to work for me and no-one else. Feel free to use it as inspition for your own endeavors.
+This project contains boilerplate CSS I use in my own opinionated projects. Feel free to use it in yours.
 
 ---
 
-Project setup is inspired by the following project(s)
+Inspiration & resources:
 
 - https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main
